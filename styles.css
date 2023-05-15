@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
+#photo {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center
+}
+
+h2 {
+  color: rgb(214, 109, 23);
+  font-size: 40px;
+  text-align: center;
+}
+
+.infos {
+text-align: center;
+}
+
+.skills {
+  display:flex
+  flex-flow: row wrap;
+  margin-bottom: 20px;
+}

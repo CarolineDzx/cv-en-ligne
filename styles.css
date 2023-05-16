@@ -32,12 +32,34 @@ body
     position: relative;
     background: #c28a1b;
     padding: 40px;
-}
+  }
+  
 .container .droite
 {
     position: relative;
     background: #fff;
     padding: 40px;
+}
+.title
+{
+    color: #c28a1b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.title2
+{
+    color: #c28a1b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.space
+{
+  margin-top: 20px;
 }
 /*  Photo de profil et Titre*/
 
@@ -209,11 +231,15 @@ body
 .contact h2
 {
     margin-bottom: 15px;
-   
-}
+   }
 
 /* Informations experiences professionnelles */
 
+.experience-list
+  {
+    list-style: none; 
+    margin: 10px 10px;
+}
 
 /* Informations éducations */
 
@@ -251,57 +277,6 @@ body
     margin: 10px 0;
 }
 
-
-
-.title2
-{
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-.title3
-{
-    color: #c28a1b;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-p
-{
-    color: #333;
-}
-.about .box
-{
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-    }
-.box .year_company
-{
-    min-width: 150px;
-}
-.box .year_company h5
-{
-    text-transform: uppercase;
-    color: black;
-    font-weight: 600;
-}
-.box .text h4
-{
-    text-transform: uppercase;
-    color: #c28a1b;
-    font-size: 16px;
-}
-
-.experience-list
-  {
-    list-style: none; 
-}
-
-
-
 /* format responsif */
 @media (max-width: 1000px)
 {
@@ -310,7 +285,7 @@ p
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
     } 
-    .interest ul
+    .interet ul
     {
         grid-template-columns: repeat(2,1fr); 
     }
@@ -318,19 +293,19 @@ p
 
 @media (max-width: 600px)
 {
-    .about .box
+    .box
     {
         flex-direction: column;
     }
-    .about .box .year_company
+    .box .year_company
     {
         margin-bottom: 5px;
     }
-    .interest ul
+    .interet ul
     {
         grid-template-columns: repeat(1,1fr); 
     }
-    .skills .box
+    .competences .box
     {
         grid-template-columns: repeat(1,1fr);
     }

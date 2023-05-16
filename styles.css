@@ -1,126 +1,337 @@
-/* GENERAL */
-*{
-  margin: 0;
-  box-sizing: border-box;
+
+* 
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Palatino Linotype', sans-serif;
+}
+body
+{
+    background: lightorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background:#fff ;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1) ;
+}
+.container .gauche
+{
+    position: relative;
+    background: #c28a1b;
+    padding: 40px;
+}
+.container .droite
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+/*  Photo de profil et Titre*/
+
+.profileText
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgba(255,255,255, 0.2); 
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+/*  A propos */
+.propos h3
+{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.propos p
+{
+  color: black;
+  margin-bottom: 20px;
 }
 
-body{
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: .9rem;
-  line-height: 1.5;
+/*  Compétences professionnelles */
+.competences
+{
+    padding-top: 10px;
+}
+.competences h3
+{
+    color: white;
+}
+.competences ul
+{
+    position: relative;
+}
+.competences ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.competences ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.competences ul li span
+{
+    color: black;
+    font-weight: 300;
+}
+.competences .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.competences .percent span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #f0f0f0f0;
+}
+/*  Langues */
+.languages
+{
+    padding-top: 30px;
+}
+.languages h3
+{
+    color: white;
+}
+.languages ul
+{
+    position: relative;
+}
+.languages ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.languages ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.languages ul li span
+{
+    color: black;
+    font-weight: 300;
 }
 
-a{
-  text-decoration: none;
-  color: #4472C4;
+.languages .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
 }
 
-a:hover{
-  text-decoration: underline;
+.languages .percent span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #f0f0f0f0;
+}
+/* Informations contact */
+
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 0px;
 }
 
-p{
-  margin: 0 0 1rem;
+.contact h2
+{
+    margin-bottom: 15px;
+   
 }
 
-h1{
-  margin: 0 0 1rem;
-  font-size: 2.5rem;
-  margin-bottom: .5rem;
+/* Informations experiences professionnelles */
+
+
+/* Informations éducations */
+
+.education h2
+{
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+.education li
+{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.education h5
+{
+    color: #c28a1b;
+    font-weight: 500;
+}
+.education h4:nth-child(2)
+{
+   font-weight: 500;
+}
+.education h4
+{
+    font-weight: 300;
 }
 
-h2{
-  margin: 0 0 1rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+/* Informations intérêts */
+
+.interet ul li
+{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
 }
 
-.text-orange{
-  color: #c28a1b;
+
+
+.title2
+{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.title3
+{
+    color: #c28a1b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+p
+{
+    color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    }
+.box .year_company
+{
+    min-width: 150px;
+}
+.box .year_company h5
+{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+.box .text h4
+{
+    text-transform: uppercase;
+    color: #c28a1b;
+    font-size: 16px;
 }
 
-.text-darkblue{
-  color: #070d1a;
+.experience-list
+  {
+    list-style: none; 
 }
 
-.text-uppercase{
-  text-transform: uppercase; 
+
+
+/* format responsif */
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .interest ul
+    {
+        grid-template-columns: repeat(2,1fr); 
+    }
 }
 
-.icon{
-  margin-right: .5rem;
-}
-
-.cv-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "left-column right-column right-column";
-  width: 1200px;
-  margin: 100px auto;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.section{
-  margin-bottom: 1.5rem;
-}
-
-/* LEFT COLUMN */
-.left-column{
-  grid-area: left-column;
-  padding: 50px;
-  background-color: #bd7c21;
-  color: white;
-}
-
-.photo-CV{
-  border-radius: 50%;
-  max-width: 150px;
-  margin: auto;
-  display: block;
-  margin-bottom: 50px;
-}
-
-.skills{
-  list-style-type: none;
-  padding: 0;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  margin: 0 0 1rem;
-}
-
-/* RIGHT COLUMN */
-.right-column{
-  grid-area: right-column;
-  display: grid;
-  grid-template-rows: 250px 1fr;
-  grid-template-areas: 
-    "header"
-    "content";
-}
-
-/* HEADER */
-.header{
-  grid-area: header;
-  padding: 50px;
-  background-color: #F2F2F2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.infos{
-  columns: 2;
-  list-style-type: none;
-  padding: 0;
-}
-
-/* CONTENT */
-.content{
-  grid-area: content;
-  padding: 50px;
-}
-
-.experience-list{
-  list-style-type: circle;
+@media (max-width: 600px)
+{
+    .about .box
+    {
+        flex-direction: column;
+    }
+    .about .box .year_company
+    {
+        margin-bottom: 5px;
+    }
+    .interest ul
+    {
+        grid-template-columns: repeat(1,1fr); 
+    }
+    .skills .box
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
 }

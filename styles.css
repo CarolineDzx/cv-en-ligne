@@ -141,12 +141,14 @@ body
     font-weight: 300;
 }
 
-.competences ul li .icon
+.competences .percent
 {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
 }
 .competences .percent span
 {
@@ -161,7 +163,6 @@ body
 {
     padding-top: 30px;
 }
-
 .languages ul
 {
     position: relative;
@@ -178,12 +179,14 @@ body
     color: black;
     font-weight: 300;
 }
-.languages ul li .icon
+.languages .percent
 {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
 }
 .languages .percent span
 {

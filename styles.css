@@ -30,7 +30,7 @@ body
 .container .gauche
 {
     position: relative;
-    background: #c28a1b;
+    background: #976D11;
     padding: 40px;
   }
   
@@ -42,7 +42,7 @@ body
 }
 .title
 {
-    color: #c28a1b;
+    color: #976D11;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -50,7 +50,7 @@ body
 }
 .title2
 {
-    color: #c28a1b;
+    color: #976D11;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -249,7 +249,7 @@ body
 }
 .etude h5
 {
-    color: #c28a1b;
+    color: #976D11;
     font-weight: 500;
 }
 

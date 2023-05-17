@@ -113,7 +113,7 @@ body
 }
 .propos p
 {
-  color: black;
+  color: #CFCFCF;
   margin-bottom: 20px;
 }
 
@@ -137,7 +137,7 @@ body
 
 .competences ul li span
 {
-    color: black;
+    color: #CFCFCF;
     font-weight: 300;
 }
 
@@ -176,7 +176,7 @@ body
 }
 .languages ul li span
 {
-    color: black;
+    color: #CFCFCF;
     font-weight: 300;
 }
 .languages .percent
@@ -196,7 +196,18 @@ body
     height: 100%;
     background: #f0f0f0f0;
 }
+/* Informations intérêts */
+.interet
+{
+        padding-top: 30px;
+}
 
+.interet ul li
+{
+    color: #CFCFCF;
+    list-style: none;
+    line-height: 1.5em;
+}
 /* Informations contact */
 
 .contact ul li
@@ -250,19 +261,6 @@ body
 .etude h4
 {
     font-weight: 300;
-}
-
-/* Informations intérêts */
-.interet
-{
-        padding-top: 30px;
-}
-
-.interet ul li
-{
-    color: black;
-    list-style: none;
-    line-height: 1.5em;
 }
 
 /* format responsif */

@@ -44,9 +44,10 @@ body
 {
     color: #8B4513;
     text-transform: uppercase;
+    position: center;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .title2
 {
@@ -64,10 +65,7 @@ body
     margin-bottom: 10px;
     margin-top: 5px;
 }
-.space
-{
-  margin-top: 20px;
-}
+
 /*  Photo de profil et Titre*/
 
 .profile
@@ -233,7 +231,6 @@ body
 .experiences .year_company
 {
     margin-bottom: 10px;
-    margin-top: 30px;
 }
 .experience-list .l1
 {

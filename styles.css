@@ -237,6 +237,16 @@ body
     padding-bottom: 0.5em;
 }
 
+.experience-list2
+  {
+    list-style: none; 
+    line-height: 1.5em;
+}
+
+.experience-list2 .l1
+{
+    padding-bottom: 0.5em;
+}
 /* Informations études */
 
 .etude h2

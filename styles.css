@@ -222,7 +222,6 @@ body
 .experience-list
   {
     list-style: none; 
-    margin: 0px 0px;
     line-height: 1.5em;
 }
 
@@ -235,6 +234,7 @@ body
 {
     padding-bottom: 0.5em;
 }
+
 /* Informations études */
 
 .etude h2

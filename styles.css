@@ -130,7 +130,6 @@ body
     margin: 10px 0;
     cursor: pointer;
 }
-
 .competences ul li span
 {
     color: black;
@@ -144,6 +143,16 @@ body
     left: 0;
     height: 100%;
     background: #f0f0f0f0;
+}
+
+.competences .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
 }
 /*  Langues */
 .languages
@@ -165,7 +174,6 @@ body
     margin: 10px 0;
     cursor: pointer;
 }
-
 .languages ul li span
 {
     color: black;
@@ -179,6 +187,15 @@ body
     left: 0;
     height: 100%;
     background: #f0f0f0f0;
+}
+.languages .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
 }
 /* Informations contact */
 

@@ -93,8 +93,8 @@ body
 
 .photo-cv
 {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .profile h2 span
@@ -262,6 +262,7 @@ body
 {
     color: black;
     list-style: none;
+    line-height: 1.5em;
 }
 
 /* format responsif */
